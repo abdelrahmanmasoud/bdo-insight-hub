@@ -1,0 +1,10 @@
+{
+  "weights": {"value": 0.5, "readiness": 0.3, "risk": 0.2},
+  "use_cases": [
+    {"name": "AI-powered customer-service automation", "value": 5, "risk": 3, "requires": ["crm", "cx", "social"], "name_de": "KI-gestützte Kundenservice-Automatisierung"},
+    {"name": "Predictive churn model", "value": 4, "risk": 2, "requires": ["cx", "crm", "finance"], "name_de": "Predictive-Churn-Modell"},
+    {"name": "Social-media monitoring dashboard", "value": 3, "risk": 1, "requires": ["social"], "name_de": "Social-Media-Monitoring-Dashboard"},
+    {"name": "GenAI offer assistant", "value": 4, "risk": 4, "requires": ["crm", "finance"], "name_de": "GenAI-Angebotsassistent"},
+    {"name": "Regulatory radar (CSRD / EU AI Act)", "value": 3, "risk": 2, "requires": ["compliance"], "name_de": "Regulatorik-Radar (CSRD / EU AI Act)"}
+  ]
+}

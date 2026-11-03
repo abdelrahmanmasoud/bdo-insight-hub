@@ -1,0 +1,175 @@
+id,client_id,date,channel,text
+p0,C006,2026-10-05,linkedin,"Hotline schlecht erreichbar, bad service"
+p1,C002,2026-10-06,linkedin,"Lieferung super schnell, toll!"
+p2,C001,2026-09-07,linkedin,"Hotline schlecht erreichbar, bad service"
+p3,C006,2026-10-20,linkedin,"Paket kam verspätet, richtig Ärger"
+p4,C005,2026-10-15,linkedin,"Support hat sofort geholfen, empfehle ich"
+p5,C001,2026-10-17,instagram,"Viel zu teuer geworden, enttäuscht"
+p6,C002,2026-10-15,x,App Login kaputt seit dem Update
+p7,C006,2026-08-28,linkedin,"Viel zu teuer geworden, enttäuscht"
+p8,C002,2026-09-10,instagram,"Support hat sofort geholfen, empfehle ich"
+p9,C006,2026-08-09,x,"Preis ist okay, gute Qualität"
+p10,C004,2026-08-27,linkedin,"Viel zu teuer geworden, enttäuscht"
+p11,C002,2026-10-18,x,"Hotline schlecht erreichbar, bad service"
+p12,C001,2026-09-21,x,"Support hat sofort geholfen, empfehle ich"
+p13,C004,2026-08-03,linkedin,"Neue App ist great, love the update"
+p14,C002,2026-09-22,x,"Hotline schlecht erreichbar, bad service"
+p15,C004,2026-08-12,linkedin,"Preis ist okay, gute Qualität"
+p16,C004,2026-08-21,x,"Lieferung super schnell, toll!"
+p17,C006,2026-10-06,x,"Neue App ist great, love the update"
+p18,C004,2026-09-06,instagram,App Login kaputt seit dem Update
+p19,C001,2026-08-16,instagram,Shipping was slow and the parcel arrived broken
+p20,C003,2026-08-18,instagram,"Support hat sofort geholfen, empfehle ich"
+p21,C004,2026-09-18,x,"Neue App ist great, love the update"
+p22,C005,2026-09-22,x,Shipping was slow and the parcel arrived broken
+p23,C006,2026-09-17,instagram,"Preis ist okay, gute Qualität"
+p24,C002,2026-09-08,instagram,Shipping was slow and the parcel arrived broken
+p25,C004,2026-09-14,x,"Paket kam verspätet, richtig Ärger"
+p26,C002,2026-09-16,x,"Preis ist okay, gute Qualität"
+p27,C006,2026-10-15,linkedin,Shipping was slow and the parcel arrived broken
+p28,C002,2026-10-09,instagram,"Neue App ist great, love the update"
+p29,C005,2026-09-22,instagram,"Neue App ist great, love the update"
+p30,C006,2026-08-17,instagram,"Viel zu teuer geworden, enttäuscht"
+p31,C006,2026-09-04,instagram,"Hotline schlecht erreichbar, bad service"
+p32,C004,2026-08-20,x,"Preis ist okay, gute Qualität"
+p33,C003,2026-10-17,x,"Preis ist okay, gute Qualität"
+p34,C001,2026-10-25,instagram,"Lieferung super schnell, toll!"
+p35,C001,2026-10-17,linkedin,Shipping was slow and the parcel arrived broken
+p36,C003,2026-09-25,instagram,"Neue App ist great, love the update"
+p37,C002,2026-08-17,instagram,"Neue App ist great, love the update"
+p38,C004,2026-08-26,x,"Lieferung super schnell, toll!"
+p39,C004,2026-08-02,linkedin,App Login kaputt seit dem Update
+p40,C006,2026-08-27,x,"Lieferung super schnell, toll!"
+p41,C006,2026-09-04,linkedin,"Lieferung super schnell, toll!"
+p42,C002,2026-10-01,instagram,"Neue App ist great, love the update"
+p43,C002,2026-09-01,linkedin,"Neue App ist great, love the update"
+p44,C004,2026-10-16,instagram,"Lieferung super schnell, toll!"
+p45,C005,2026-08-03,x,"Lieferung super schnell, toll!"
+p46,C004,2026-10-04,linkedin,"Neue App ist great, love the update"
+p47,C001,2026-09-04,x,"Neue App ist great, love the update"
+p48,C003,2026-09-06,linkedin,"Hotline schlecht erreichbar, bad service"
+p49,C006,2026-08-15,instagram,"Neue App ist great, love the update"
+p50,C003,2026-10-01,x,Shipping was slow and the parcel arrived broken
+p51,C001,2026-08-17,instagram,"Support hat sofort geholfen, empfehle ich"
+p52,C005,2026-10-19,linkedin,"Preis ist okay, gute Qualität"
+p53,C001,2026-08-21,x,Shipping was slow and the parcel arrived broken
+p54,C006,2026-10-17,x,"Neue App ist great, love the update"
+p55,C002,2026-08-14,instagram,Shipping was slow and the parcel arrived broken
+p56,C004,2026-10-15,instagram,"Hotline schlecht erreichbar, bad service"
+p57,C006,2026-09-29,instagram,"Support hat sofort geholfen, empfehle ich"
+p58,C004,2026-09-22,x,"Hotline schlecht erreichbar, bad service"
+p59,C001,2026-09-15,x,"Neue App ist great, love the update"
+p60,C005,2026-10-16,x,"Support hat sofort geholfen, empfehle ich"
+p61,C001,2026-09-11,x,"Hotline schlecht erreichbar, bad service"
+p62,C004,2026-10-05,instagram,"Support hat sofort geholfen, empfehle ich"
+p63,C005,2026-08-01,linkedin,"Lieferung super schnell, toll!"
+p64,C001,2026-09-22,x,"Viel zu teuer geworden, enttäuscht"
+p65,C005,2026-09-19,x,"Support hat sofort geholfen, empfehle ich"
+p66,C003,2026-08-05,instagram,App Login kaputt seit dem Update
+p67,C001,2026-10-19,instagram,App Login kaputt seit dem Update
+p68,C001,2026-10-20,linkedin,"Viel zu teuer geworden, enttäuscht"
+p69,C006,2026-10-05,linkedin,"Neue App ist great, love the update"
+p70,C001,2026-10-11,instagram,"Preis ist okay, gute Qualität"
+p71,C005,2026-09-08,instagram,"Viel zu teuer geworden, enttäuscht"
+p72,C001,2026-10-09,linkedin,"Support hat sofort geholfen, empfehle ich"
+p73,C002,2026-09-10,instagram,"Preis ist okay, gute Qualität"
+p74,C005,2026-09-10,linkedin,"Preis ist okay, gute Qualität"
+p75,C002,2026-10-05,linkedin,"Lieferung super schnell, toll!"
+p76,C004,2026-09-13,instagram,"Viel zu teuer geworden, enttäuscht"
+p77,C006,2026-10-05,x,"Neue App ist great, love the update"
+p78,C002,2026-08-26,x,App Login kaputt seit dem Update
+p79,C002,2026-09-16,x,Shipping was slow and the parcel arrived broken
+p80,C004,2026-10-01,linkedin,"Support hat sofort geholfen, empfehle ich"
+p81,C003,2026-09-20,instagram,App Login kaputt seit dem Update
+p82,C001,2026-10-22,linkedin,"Viel zu teuer geworden, enttäuscht"
+p83,C001,2026-10-21,instagram,App Login kaputt seit dem Update
+p84,C004,2026-09-15,instagram,"Paket kam verspätet, richtig Ärger"
+p85,C002,2026-08-13,linkedin,Shipping was slow and the parcel arrived broken
+p86,C001,2026-08-31,instagram,"Viel zu teuer geworden, enttäuscht"
+p87,C001,2026-08-31,instagram,"Hotline schlecht erreichbar, bad service"
+p88,C001,2026-08-02,instagram,"Hotline schlecht erreichbar, bad service"
+p89,C004,2026-08-01,linkedin,App Login kaputt seit dem Update
+p90,C002,2026-08-16,x,App Login kaputt seit dem Update
+p91,C005,2026-10-03,instagram,"Hotline schlecht erreichbar, bad service"
+p92,C001,2026-08-16,linkedin,"Support hat sofort geholfen, empfehle ich"
+p93,C005,2026-08-31,instagram,"Hotline schlecht erreichbar, bad service"
+p94,C004,2026-08-30,instagram,"Viel zu teuer geworden, enttäuscht"
+p95,C006,2026-10-04,x,"Hotline schlecht erreichbar, bad service"
+p96,C002,2026-10-14,instagram,"Support hat sofort geholfen, empfehle ich"
+p97,C002,2026-09-30,x,"Lieferung super schnell, toll!"
+p98,C005,2026-08-26,x,App Login kaputt seit dem Update
+p99,C005,2026-08-06,x,App Login kaputt seit dem Update
+p100,C002,2026-09-04,x,"Lieferung super schnell, toll!"
+p101,C002,2026-09-01,x,"Neue App ist great, love the update"
+p102,C002,2026-08-15,x,"Neue App ist great, love the update"
+p103,C006,2026-08-27,instagram,"Hotline schlecht erreichbar, bad service"
+p104,C006,2026-08-08,instagram,App Login kaputt seit dem Update
+p105,C006,2026-10-05,linkedin,App Login kaputt seit dem Update
+p106,C006,2026-09-24,linkedin,"Neue App ist great, love the update"
+p107,C004,2026-09-20,x,"Support hat sofort geholfen, empfehle ich"
+p108,C003,2026-09-21,linkedin,"Lieferung super schnell, toll!"
+p109,C002,2026-10-06,linkedin,"Preis ist okay, gute Qualität"
+p110,C004,2026-10-17,linkedin,"Hotline schlecht erreichbar, bad service"
+p111,C001,2026-09-02,x,App Login kaputt seit dem Update
+p112,C006,2026-08-12,x,App Login kaputt seit dem Update
+p113,C003,2026-10-25,linkedin,App Login kaputt seit dem Update
+p114,C006,2026-08-18,instagram,"Viel zu teuer geworden, enttäuscht"
+p115,C003,2026-09-27,linkedin,"Neue App ist great, love the update"
+p116,C003,2026-09-06,instagram,"Neue App ist great, love the update"
+p117,C002,2026-08-27,instagram,"Paket kam verspätet, richtig Ärger"
+p118,C005,2026-08-11,instagram,"Lieferung super schnell, toll!"
+p119,C004,2026-08-04,x,"Neue App ist great, love the update"
+p120,C003,2026-10-19,linkedin,"Support hat sofort geholfen, empfehle ich"
+p121,C003,2026-08-28,linkedin,App Login kaputt seit dem Update
+p122,C003,2026-09-02,x,"Neue App ist great, love the update"
+p123,C001,2026-08-17,linkedin,"Preis ist okay, gute Qualität"
+p124,C001,2026-08-03,x,"Preis ist okay, gute Qualität"
+p125,C005,2026-10-23,x,"Preis ist okay, gute Qualität"
+p126,C006,2026-08-26,x,"Viel zu teuer geworden, enttäuscht"
+p127,C003,2026-09-23,x,"Lieferung super schnell, toll!"
+p128,C001,2026-09-16,instagram,"Paket kam verspätet, richtig Ärger"
+p129,C006,2026-08-13,linkedin,"Neue App ist great, love the update"
+p130,C005,2026-10-16,instagram,"Preis ist okay, gute Qualität"
+p131,C006,2026-09-17,instagram,Shipping was slow and the parcel arrived broken
+p132,C003,2026-10-20,instagram,App Login kaputt seit dem Update
+p133,C005,2026-10-17,instagram,"Support hat sofort geholfen, empfehle ich"
+p134,C004,2026-09-02,x,App Login kaputt seit dem Update
+p135,C004,2026-08-05,instagram,"Viel zu teuer geworden, enttäuscht"
+p136,C006,2026-10-03,instagram,"Hotline schlecht erreichbar, bad service"
+p137,C004,2026-08-27,instagram,"Hotline schlecht erreichbar, bad service"
+p138,C001,2026-09-24,linkedin,"Neue App ist great, love the update"
+p139,C005,2026-08-27,instagram,App Login kaputt seit dem Update
+p140,C004,2026-10-22,linkedin,"Viel zu teuer geworden, enttäuscht"
+p141,C003,2026-09-28,linkedin,"Hotline schlecht erreichbar, bad service"
+p142,C006,2026-08-10,linkedin,Shipping was slow and the parcel arrived broken
+p143,C001,2026-10-01,x,App Login kaputt seit dem Update
+p144,C002,2026-08-15,instagram,App Login kaputt seit dem Update
+p145,C001,2026-08-29,x,"Support hat sofort geholfen, empfehle ich"
+p146,C006,2026-09-04,x,"Hotline schlecht erreichbar, bad service"
+p147,C005,2026-08-26,instagram,"Hotline schlecht erreichbar, bad service"
+p148,C003,2026-08-16,linkedin,App Login kaputt seit dem Update
+p149,C003,2026-09-16,x,Shipping was slow and the parcel arrived broken
+p150,C003,2026-10-01,x,"Preis ist okay, gute Qualität"
+p151,C006,2026-09-28,linkedin,"Hotline schlecht erreichbar, bad service"
+p152,C002,2026-10-13,linkedin,"Viel zu teuer geworden, enttäuscht"
+p153,C003,2026-10-03,x,"Viel zu teuer geworden, enttäuscht"
+p154,C001,2026-10-20,instagram,"Support hat sofort geholfen, empfehle ich"
+p155,C004,2026-08-05,x,Shipping was slow and the parcel arrived broken
+p156,C004,2026-09-19,linkedin,App Login kaputt seit dem Update
+p157,C001,2026-10-02,linkedin,"Neue App ist great, love the update"
+p158,C004,2026-10-17,linkedin,Shipping was slow and the parcel arrived broken
+p159,C006,2026-08-06,x,"Preis ist okay, gute Qualität"
+s0,C001,2026-10-07,x,"Paket kaputt und Lieferung langsam, bad"
+s1,C001,2026-10-23,x,"Lieferung wieder verspätet, Ärger!"
+s2,C001,2026-10-22,x,"Paket kaputt und Lieferung langsam, bad"
+s3,C001,2026-10-06,x,"Lieferung wieder verspätet, Ärger!"
+s4,C001,2026-10-09,x,"Paket kaputt und Lieferung langsam, bad"
+s5,C001,2026-10-11,x,"Paket kaputt und Lieferung langsam, bad"
+s6,C001,2026-10-16,x,"Paket kaputt und Lieferung langsam, bad"
+s7,C001,2026-10-16,x,"Lieferung wieder verspätet, Ärger!"
+s8,C001,2026-10-06,x,"Lieferung wieder verspätet, Ärger!"
+s9,C001,2026-10-19,x,"Lieferung wieder verspätet, Ärger!"
+s10,C001,2026-10-17,x,"Lieferung wieder verspätet, Ärger!"
+s11,C001,2026-10-20,x,"Lieferung wieder verspätet, Ärger!"
+s12,C001,2026-10-20,x,"Lieferung wieder verspätet, Ärger!"
+s13,C001,2026-10-20,x,"Lieferung wieder verspätet, Ärger!"

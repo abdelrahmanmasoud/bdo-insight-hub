@@ -1,0 +1,6 @@
+[
+  {"offer": "KI-Strategie Workshop", "problem": "Welche KI-Use-Cases lohnen sich zuerst?", "benefit": "Priorisierte Roadmap in 4 Wochen", "offer_en": "AI Strategy Workshop", "problem_en": "Which AI use cases pay off first?", "benefit_en": "Prioritised roadmap in 4 weeks"},
+  {"offer": "Social-Media- & Produktmonitoring", "problem": "Probleme erkennen, bevor sie eskalieren", "benefit": "Frühwarnsystem für Reputation und Produktthemen", "offer_en": "Social Media & Product Monitoring", "problem_en": "Spot problems before they escalate", "benefit_en": "Early-warning system for reputation and product topics"},
+  {"offer": "CX Diagnostics", "problem": "Wo verlieren wir Kunden?", "benefit": "Churn-Treiber nach Touchpoint, mit Handlungsempfehlungen", "offer_en": "CX Diagnostics", "problem_en": "Where are we losing customers?", "benefit_en": "Churn drivers by touchpoint, with recommended actions"},
+  {"offer": "Data Platform Assessment", "problem": "Daten liegen in Silos", "benefit": "Zielbild für die Integration aller Fachbereiche", "offer_en": "Data Platform Assessment", "problem_en": "Data sits in silos", "benefit_en": "Target picture for integrating all departments"}
+]

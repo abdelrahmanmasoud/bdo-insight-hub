@@ -1,0 +1,83 @@
+[
+ {
+  "client_id": "C001",
+  "client_name": "CEWE Stiftung & Co. KGaA",
+  "industry": "Photo & Retail",
+  "mandate": "KI-Strategie",
+  "stage": "lead",
+  "value_eur": 45000.0,
+  "owner": "Partner A"
+ },
+ {
+  "client_id": "C002",
+  "client_name": "Delticom AG",
+  "industry": "E-Commerce",
+  "mandate": "KI-Strategie",
+  "stage": "proposal",
+  "value_eur": 45000.0,
+  "owner": "Partner B"
+ },
+ {
+  "client_id": "C002",
+  "client_name": "Delticom AG",
+  "industry": "E-Commerce",
+  "mandate": "CX-Diagnose",
+  "stage": "won",
+  "value_eur": 120000.0,
+  "owner": "Partner B"
+ },
+ {
+  "client_id": "C003",
+  "client_name": "Masterflex SE",
+  "industry": "Industrial Manufacturing",
+  "mandate": "KI-Strategie",
+  "stage": "won",
+  "value_eur": 80000.0,
+  "owner": "Partner C"
+ },
+ {
+  "client_id": "C004",
+  "client_name": "hGears AG",
+  "industry": "Automotive Supplier",
+  "mandate": "KI-Strategie",
+  "stage": "lost",
+  "value_eur": 80000.0,
+  "owner": "Partner D"
+ },
+ {
+  "client_id": "C004",
+  "client_name": "hGears AG",
+  "industry": "Automotive Supplier",
+  "mandate": "CX-Diagnose",
+  "stage": "lead",
+  "value_eur": 80000.0,
+  "owner": "Partner D"
+ },
+ {
+  "client_id": "C005",
+  "client_name": "Kölner Pensionskasse VVaG",
+  "industry": "Insurance & Pensions",
+  "mandate": "KI-Strategie",
+  "stage": "lead",
+  "value_eur": 45000.0,
+  "owner": "Partner E"
+ },
+ {
+  "client_id": "C006",
+  "client_name": "Encavis AG",
+  "industry": "Renewable Energy",
+  "mandate": "KI-Strategie",
+  "stage": "proposal",
+  "value_eur": 220000.0,
+  "owner": "Partner F"
+ },
+ {
+  "client_id": "C006",
+  "client_name": "Encavis AG",
+  "industry": "Renewable Energy",
+  "mandate": "CX-Diagnose",
+  "stage": "won",
+  "value_eur": 45000.0,
+  "owner": "Partner F"
+ }
+]

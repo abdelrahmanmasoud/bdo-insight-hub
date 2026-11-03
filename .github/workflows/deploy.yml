@@ -1,0 +1,25 @@
+name: Deploy (dev / staging / production)
+# Branch -> environment: dev -> dev, staging -> staging, main -> production.
+# Configure required reviewers on the "production" environment (Settings > Environments) for a manual approval gate.
+on:
+  push:
+    branches: [dev, staging, main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ github.ref_name == 'main' && 'production' || github.ref_name }}
+    env:
+      INSIGHT_HUB_ENV: ${{ github.ref_name == 'main' && 'production' || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python scripts/make_sample_data.py   # replace with real, access-controlled ingestion per environment
+      - run: PYTHONPATH=src python -m insight_hub   # production fails on data-quality errors
+      - uses: actions/upload-artifact@v4
+        with:
+          name: insight-hub-${{ env.INSIGHT_HUB_ENV }}
+          path: output/${{ env.INSIGHT_HUB_ENV }}

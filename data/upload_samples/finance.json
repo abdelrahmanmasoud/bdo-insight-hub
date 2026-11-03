@@ -1,0 +1,38 @@
+[
+ {
+  "client_id": "C001",
+  "project": "C001-P1",
+  "budget_eur": 200000.0,
+  "spent_eur": 83496.0
+ },
+ {
+  "client_id": "C002",
+  "project": "C002-P1",
+  "budget_eur": 60000.0,
+  "spent_eur": 31215.0
+ },
+ {
+  "client_id": "C003",
+  "project": "C003-P1",
+  "budget_eur": 60000.0,
+  "spent_eur": 72000.0
+ },
+ {
+  "client_id": "C004",
+  "project": "C004-P1",
+  "budget_eur": 200000.0,
+  "spent_eur": 104248.0
+ },
+ {
+  "client_id": "C005",
+  "project": "C005-P1",
+  "budget_eur": 140000.0,
+  "spent_eur": 118326.0
+ },
+ {
+  "client_id": "C006",
+  "project": "C006-P1",
+  "budget_eur": 60000.0,
+  "spent_eur": 49040.0
+ }
+]

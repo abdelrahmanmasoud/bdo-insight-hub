@@ -1,0 +1,7 @@
+{
+ "env": "production",
+ "output_dir": "output/production",
+ "fail_on_dq_errors": true,
+ "office_exports": true,
+ "port": 8002
+}

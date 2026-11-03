@@ -1,0 +1,1220 @@
+[
+ {
+  "id": "p0",
+  "client_id": "C006",
+  "date": "2026-10-05",
+  "channel": "linkedin",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p1",
+  "client_id": "C002",
+  "date": "2026-10-06",
+  "channel": "linkedin",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p2",
+  "client_id": "C001",
+  "date": "2026-09-07",
+  "channel": "linkedin",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p3",
+  "client_id": "C006",
+  "date": "2026-10-20",
+  "channel": "linkedin",
+  "text": "Paket kam verspätet, richtig Ärger"
+ },
+ {
+  "id": "p4",
+  "client_id": "C005",
+  "date": "2026-10-15",
+  "channel": "linkedin",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p5",
+  "client_id": "C001",
+  "date": "2026-10-17",
+  "channel": "instagram",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p6",
+  "client_id": "C002",
+  "date": "2026-10-15",
+  "channel": "x",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p7",
+  "client_id": "C006",
+  "date": "2026-08-28",
+  "channel": "linkedin",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p8",
+  "client_id": "C002",
+  "date": "2026-09-10",
+  "channel": "instagram",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p9",
+  "client_id": "C006",
+  "date": "2026-08-09",
+  "channel": "x",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p10",
+  "client_id": "C004",
+  "date": "2026-08-27",
+  "channel": "linkedin",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p11",
+  "client_id": "C002",
+  "date": "2026-10-18",
+  "channel": "x",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p12",
+  "client_id": "C001",
+  "date": "2026-09-21",
+  "channel": "x",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p13",
+  "client_id": "C004",
+  "date": "2026-08-03",
+  "channel": "linkedin",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p14",
+  "client_id": "C002",
+  "date": "2026-09-22",
+  "channel": "x",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p15",
+  "client_id": "C004",
+  "date": "2026-08-12",
+  "channel": "linkedin",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p16",
+  "client_id": "C004",
+  "date": "2026-08-21",
+  "channel": "x",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p17",
+  "client_id": "C006",
+  "date": "2026-10-06",
+  "channel": "x",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p18",
+  "client_id": "C004",
+  "date": "2026-09-06",
+  "channel": "instagram",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p19",
+  "client_id": "C001",
+  "date": "2026-08-16",
+  "channel": "instagram",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p20",
+  "client_id": "C003",
+  "date": "2026-08-18",
+  "channel": "instagram",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p21",
+  "client_id": "C004",
+  "date": "2026-09-18",
+  "channel": "x",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p22",
+  "client_id": "C005",
+  "date": "2026-09-22",
+  "channel": "x",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p23",
+  "client_id": "C006",
+  "date": "2026-09-17",
+  "channel": "instagram",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p24",
+  "client_id": "C002",
+  "date": "2026-09-08",
+  "channel": "instagram",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p25",
+  "client_id": "C004",
+  "date": "2026-09-14",
+  "channel": "x",
+  "text": "Paket kam verspätet, richtig Ärger"
+ },
+ {
+  "id": "p26",
+  "client_id": "C002",
+  "date": "2026-09-16",
+  "channel": "x",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p27",
+  "client_id": "C006",
+  "date": "2026-10-15",
+  "channel": "linkedin",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p28",
+  "client_id": "C002",
+  "date": "2026-10-09",
+  "channel": "instagram",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p29",
+  "client_id": "C005",
+  "date": "2026-09-22",
+  "channel": "instagram",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p30",
+  "client_id": "C006",
+  "date": "2026-08-17",
+  "channel": "instagram",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p31",
+  "client_id": "C006",
+  "date": "2026-09-04",
+  "channel": "instagram",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p32",
+  "client_id": "C004",
+  "date": "2026-08-20",
+  "channel": "x",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p33",
+  "client_id": "C003",
+  "date": "2026-10-17",
+  "channel": "x",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p34",
+  "client_id": "C001",
+  "date": "2026-10-25",
+  "channel": "instagram",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p35",
+  "client_id": "C001",
+  "date": "2026-10-17",
+  "channel": "linkedin",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p36",
+  "client_id": "C003",
+  "date": "2026-09-25",
+  "channel": "instagram",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p37",
+  "client_id": "C002",
+  "date": "2026-08-17",
+  "channel": "instagram",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p38",
+  "client_id": "C004",
+  "date": "2026-08-26",
+  "channel": "x",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p39",
+  "client_id": "C004",
+  "date": "2026-08-02",
+  "channel": "linkedin",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p40",
+  "client_id": "C006",
+  "date": "2026-08-27",
+  "channel": "x",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p41",
+  "client_id": "C006",
+  "date": "2026-09-04",
+  "channel": "linkedin",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p42",
+  "client_id": "C002",
+  "date": "2026-10-01",
+  "channel": "instagram",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p43",
+  "client_id": "C002",
+  "date": "2026-09-01",
+  "channel": "linkedin",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p44",
+  "client_id": "C004",
+  "date": "2026-10-16",
+  "channel": "instagram",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p45",
+  "client_id": "C005",
+  "date": "2026-08-03",
+  "channel": "x",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p46",
+  "client_id": "C004",
+  "date": "2026-10-04",
+  "channel": "linkedin",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p47",
+  "client_id": "C001",
+  "date": "2026-09-04",
+  "channel": "x",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p48",
+  "client_id": "C003",
+  "date": "2026-09-06",
+  "channel": "linkedin",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p49",
+  "client_id": "C006",
+  "date": "2026-08-15",
+  "channel": "instagram",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p50",
+  "client_id": "C003",
+  "date": "2026-10-01",
+  "channel": "x",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p51",
+  "client_id": "C001",
+  "date": "2026-08-17",
+  "channel": "instagram",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p52",
+  "client_id": "C005",
+  "date": "2026-10-19",
+  "channel": "linkedin",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p53",
+  "client_id": "C001",
+  "date": "2026-08-21",
+  "channel": "x",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p54",
+  "client_id": "C006",
+  "date": "2026-10-17",
+  "channel": "x",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p55",
+  "client_id": "C002",
+  "date": "2026-08-14",
+  "channel": "instagram",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p56",
+  "client_id": "C004",
+  "date": "2026-10-15",
+  "channel": "instagram",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p57",
+  "client_id": "C006",
+  "date": "2026-09-29",
+  "channel": "instagram",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p58",
+  "client_id": "C004",
+  "date": "2026-09-22",
+  "channel": "x",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p59",
+  "client_id": "C001",
+  "date": "2026-09-15",
+  "channel": "x",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p60",
+  "client_id": "C005",
+  "date": "2026-10-16",
+  "channel": "x",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p61",
+  "client_id": "C001",
+  "date": "2026-09-11",
+  "channel": "x",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p62",
+  "client_id": "C004",
+  "date": "2026-10-05",
+  "channel": "instagram",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p63",
+  "client_id": "C005",
+  "date": "2026-08-01",
+  "channel": "linkedin",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p64",
+  "client_id": "C001",
+  "date": "2026-09-22",
+  "channel": "x",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p65",
+  "client_id": "C005",
+  "date": "2026-09-19",
+  "channel": "x",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p66",
+  "client_id": "C003",
+  "date": "2026-08-05",
+  "channel": "instagram",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p67",
+  "client_id": "C001",
+  "date": "2026-10-19",
+  "channel": "instagram",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p68",
+  "client_id": "C001",
+  "date": "2026-10-20",
+  "channel": "linkedin",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p69",
+  "client_id": "C006",
+  "date": "2026-10-05",
+  "channel": "linkedin",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p70",
+  "client_id": "C001",
+  "date": "2026-10-11",
+  "channel": "instagram",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p71",
+  "client_id": "C005",
+  "date": "2026-09-08",
+  "channel": "instagram",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p72",
+  "client_id": "C001",
+  "date": "2026-10-09",
+  "channel": "linkedin",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p73",
+  "client_id": "C002",
+  "date": "2026-09-10",
+  "channel": "instagram",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p74",
+  "client_id": "C005",
+  "date": "2026-09-10",
+  "channel": "linkedin",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p75",
+  "client_id": "C002",
+  "date": "2026-10-05",
+  "channel": "linkedin",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p76",
+  "client_id": "C004",
+  "date": "2026-09-13",
+  "channel": "instagram",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p77",
+  "client_id": "C006",
+  "date": "2026-10-05",
+  "channel": "x",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p78",
+  "client_id": "C002",
+  "date": "2026-08-26",
+  "channel": "x",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p79",
+  "client_id": "C002",
+  "date": "2026-09-16",
+  "channel": "x",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p80",
+  "client_id": "C004",
+  "date": "2026-10-01",
+  "channel": "linkedin",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p81",
+  "client_id": "C003",
+  "date": "2026-09-20",
+  "channel": "instagram",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p82",
+  "client_id": "C001",
+  "date": "2026-10-22",
+  "channel": "linkedin",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p83",
+  "client_id": "C001",
+  "date": "2026-10-21",
+  "channel": "instagram",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p84",
+  "client_id": "C004",
+  "date": "2026-09-15",
+  "channel": "instagram",
+  "text": "Paket kam verspätet, richtig Ärger"
+ },
+ {
+  "id": "p85",
+  "client_id": "C002",
+  "date": "2026-08-13",
+  "channel": "linkedin",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p86",
+  "client_id": "C001",
+  "date": "2026-08-31",
+  "channel": "instagram",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p87",
+  "client_id": "C001",
+  "date": "2026-08-31",
+  "channel": "instagram",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p88",
+  "client_id": "C001",
+  "date": "2026-08-02",
+  "channel": "instagram",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p89",
+  "client_id": "C004",
+  "date": "2026-08-01",
+  "channel": "linkedin",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p90",
+  "client_id": "C002",
+  "date": "2026-08-16",
+  "channel": "x",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p91",
+  "client_id": "C005",
+  "date": "2026-10-03",
+  "channel": "instagram",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p92",
+  "client_id": "C001",
+  "date": "2026-08-16",
+  "channel": "linkedin",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p93",
+  "client_id": "C005",
+  "date": "2026-08-31",
+  "channel": "instagram",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p94",
+  "client_id": "C004",
+  "date": "2026-08-30",
+  "channel": "instagram",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p95",
+  "client_id": "C006",
+  "date": "2026-10-04",
+  "channel": "x",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p96",
+  "client_id": "C002",
+  "date": "2026-10-14",
+  "channel": "instagram",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p97",
+  "client_id": "C002",
+  "date": "2026-09-30",
+  "channel": "x",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p98",
+  "client_id": "C005",
+  "date": "2026-08-26",
+  "channel": "x",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p99",
+  "client_id": "C005",
+  "date": "2026-08-06",
+  "channel": "x",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p100",
+  "client_id": "C002",
+  "date": "2026-09-04",
+  "channel": "x",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p101",
+  "client_id": "C002",
+  "date": "2026-09-01",
+  "channel": "x",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p102",
+  "client_id": "C002",
+  "date": "2026-08-15",
+  "channel": "x",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p103",
+  "client_id": "C006",
+  "date": "2026-08-27",
+  "channel": "instagram",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p104",
+  "client_id": "C006",
+  "date": "2026-08-08",
+  "channel": "instagram",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p105",
+  "client_id": "C006",
+  "date": "2026-10-05",
+  "channel": "linkedin",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p106",
+  "client_id": "C006",
+  "date": "2026-09-24",
+  "channel": "linkedin",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p107",
+  "client_id": "C004",
+  "date": "2026-09-20",
+  "channel": "x",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p108",
+  "client_id": "C003",
+  "date": "2026-09-21",
+  "channel": "linkedin",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p109",
+  "client_id": "C002",
+  "date": "2026-10-06",
+  "channel": "linkedin",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p110",
+  "client_id": "C004",
+  "date": "2026-10-17",
+  "channel": "linkedin",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p111",
+  "client_id": "C001",
+  "date": "2026-09-02",
+  "channel": "x",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p112",
+  "client_id": "C006",
+  "date": "2026-08-12",
+  "channel": "x",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p113",
+  "client_id": "C003",
+  "date": "2026-10-25",
+  "channel": "linkedin",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p114",
+  "client_id": "C006",
+  "date": "2026-08-18",
+  "channel": "instagram",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p115",
+  "client_id": "C003",
+  "date": "2026-09-27",
+  "channel": "linkedin",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p116",
+  "client_id": "C003",
+  "date": "2026-09-06",
+  "channel": "instagram",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p117",
+  "client_id": "C002",
+  "date": "2026-08-27",
+  "channel": "instagram",
+  "text": "Paket kam verspätet, richtig Ärger"
+ },
+ {
+  "id": "p118",
+  "client_id": "C005",
+  "date": "2026-08-11",
+  "channel": "instagram",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p119",
+  "client_id": "C004",
+  "date": "2026-08-04",
+  "channel": "x",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p120",
+  "client_id": "C003",
+  "date": "2026-10-19",
+  "channel": "linkedin",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p121",
+  "client_id": "C003",
+  "date": "2026-08-28",
+  "channel": "linkedin",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p122",
+  "client_id": "C003",
+  "date": "2026-09-02",
+  "channel": "x",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p123",
+  "client_id": "C001",
+  "date": "2026-08-17",
+  "channel": "linkedin",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p124",
+  "client_id": "C001",
+  "date": "2026-08-03",
+  "channel": "x",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p125",
+  "client_id": "C005",
+  "date": "2026-10-23",
+  "channel": "x",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p126",
+  "client_id": "C006",
+  "date": "2026-08-26",
+  "channel": "x",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p127",
+  "client_id": "C003",
+  "date": "2026-09-23",
+  "channel": "x",
+  "text": "Lieferung super schnell, toll!"
+ },
+ {
+  "id": "p128",
+  "client_id": "C001",
+  "date": "2026-09-16",
+  "channel": "instagram",
+  "text": "Paket kam verspätet, richtig Ärger"
+ },
+ {
+  "id": "p129",
+  "client_id": "C006",
+  "date": "2026-08-13",
+  "channel": "linkedin",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p130",
+  "client_id": "C005",
+  "date": "2026-10-16",
+  "channel": "instagram",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p131",
+  "client_id": "C006",
+  "date": "2026-09-17",
+  "channel": "instagram",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p132",
+  "client_id": "C003",
+  "date": "2026-10-20",
+  "channel": "instagram",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p133",
+  "client_id": "C005",
+  "date": "2026-10-17",
+  "channel": "instagram",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p134",
+  "client_id": "C004",
+  "date": "2026-09-02",
+  "channel": "x",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p135",
+  "client_id": "C004",
+  "date": "2026-08-05",
+  "channel": "instagram",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p136",
+  "client_id": "C006",
+  "date": "2026-10-03",
+  "channel": "instagram",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p137",
+  "client_id": "C004",
+  "date": "2026-08-27",
+  "channel": "instagram",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p138",
+  "client_id": "C001",
+  "date": "2026-09-24",
+  "channel": "linkedin",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p139",
+  "client_id": "C005",
+  "date": "2026-08-27",
+  "channel": "instagram",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p140",
+  "client_id": "C004",
+  "date": "2026-10-22",
+  "channel": "linkedin",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p141",
+  "client_id": "C003",
+  "date": "2026-09-28",
+  "channel": "linkedin",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p142",
+  "client_id": "C006",
+  "date": "2026-08-10",
+  "channel": "linkedin",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p143",
+  "client_id": "C001",
+  "date": "2026-10-01",
+  "channel": "x",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p144",
+  "client_id": "C002",
+  "date": "2026-08-15",
+  "channel": "instagram",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p145",
+  "client_id": "C001",
+  "date": "2026-08-29",
+  "channel": "x",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p146",
+  "client_id": "C006",
+  "date": "2026-09-04",
+  "channel": "x",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p147",
+  "client_id": "C005",
+  "date": "2026-08-26",
+  "channel": "instagram",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p148",
+  "client_id": "C003",
+  "date": "2026-08-16",
+  "channel": "linkedin",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p149",
+  "client_id": "C003",
+  "date": "2026-09-16",
+  "channel": "x",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p150",
+  "client_id": "C003",
+  "date": "2026-10-01",
+  "channel": "x",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "p151",
+  "client_id": "C006",
+  "date": "2026-09-28",
+  "channel": "linkedin",
+  "text": "Hotline schlecht erreichbar, bad service"
+ },
+ {
+  "id": "p152",
+  "client_id": "C002",
+  "date": "2026-10-13",
+  "channel": "linkedin",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p153",
+  "client_id": "C003",
+  "date": "2026-10-03",
+  "channel": "x",
+  "text": "Viel zu teuer geworden, enttäuscht"
+ },
+ {
+  "id": "p154",
+  "client_id": "C001",
+  "date": "2026-10-20",
+  "channel": "instagram",
+  "text": "Support hat sofort geholfen, empfehle ich"
+ },
+ {
+  "id": "p155",
+  "client_id": "C004",
+  "date": "2026-08-05",
+  "channel": "x",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p156",
+  "client_id": "C004",
+  "date": "2026-09-19",
+  "channel": "linkedin",
+  "text": "App Login kaputt seit dem Update"
+ },
+ {
+  "id": "p157",
+  "client_id": "C001",
+  "date": "2026-10-02",
+  "channel": "linkedin",
+  "text": "Neue App ist great, love the update"
+ },
+ {
+  "id": "p158",
+  "client_id": "C004",
+  "date": "2026-10-17",
+  "channel": "linkedin",
+  "text": "Shipping was slow and the parcel arrived broken"
+ },
+ {
+  "id": "p159",
+  "client_id": "C006",
+  "date": "2026-08-06",
+  "channel": "x",
+  "text": "Preis ist okay, gute Qualität"
+ },
+ {
+  "id": "s0",
+  "client_id": "C001",
+  "date": "2026-10-07",
+  "channel": "x",
+  "text": "Paket kaputt und Lieferung langsam, bad"
+ },
+ {
+  "id": "s1",
+  "client_id": "C001",
+  "date": "2026-10-23",
+  "channel": "x",
+  "text": "Lieferung wieder verspätet, Ärger!"
+ },
+ {
+  "id": "s2",
+  "client_id": "C001",
+  "date": "2026-10-22",
+  "channel": "x",
+  "text": "Paket kaputt und Lieferung langsam, bad"
+ },
+ {
+  "id": "s3",
+  "client_id": "C001",
+  "date": "2026-10-06",
+  "channel": "x",
+  "text": "Lieferung wieder verspätet, Ärger!"
+ },
+ {
+  "id": "s4",
+  "client_id": "C001",
+  "date": "2026-10-09",
+  "channel": "x",
+  "text": "Paket kaputt und Lieferung langsam, bad"
+ },
+ {
+  "id": "s5",
+  "client_id": "C001",
+  "date": "2026-10-11",
+  "channel": "x",
+  "text": "Paket kaputt und Lieferung langsam, bad"
+ },
+ {
+  "id": "s6",
+  "client_id": "C001",
+  "date": "2026-10-16",
+  "channel": "x",
+  "text": "Paket kaputt und Lieferung langsam, bad"
+ },
+ {
+  "id": "s7",
+  "client_id": "C001",
+  "date": "2026-10-16",
+  "channel": "x",
+  "text": "Lieferung wieder verspätet, Ärger!"
+ },
+ {
+  "id": "s8",
+  "client_id": "C001",
+  "date": "2026-10-06",
+  "channel": "x",
+  "text": "Lieferung wieder verspätet, Ärger!"
+ },
+ {
+  "id": "s9",
+  "client_id": "C001",
+  "date": "2026-10-19",
+  "channel": "x",
+  "text": "Lieferung wieder verspätet, Ärger!"
+ },
+ {
+  "id": "s10",
+  "client_id": "C001",
+  "date": "2026-10-17",
+  "channel": "x",
+  "text": "Lieferung wieder verspätet, Ärger!"
+ },
+ {
+  "id": "s11",
+  "client_id": "C001",
+  "date": "2026-10-20",
+  "channel": "x",
+  "text": "Lieferung wieder verspätet, Ärger!"
+ },
+ {
+  "id": "s12",
+  "client_id": "C001",
+  "date": "2026-10-20",
+  "channel": "x",
+  "text": "Lieferung wieder verspätet, Ärger!"
+ },
+ {
+  "id": "s13",
+  "client_id": "C001",
+  "date": "2026-10-20",
+  "channel": "x",
+  "text": "Lieferung wieder verspätet, Ärger!"
+ }
+]

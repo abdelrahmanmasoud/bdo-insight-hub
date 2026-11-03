@@ -1,0 +1,1922 @@
+[
+ {
+  "client_id": "C002",
+  "date": "2026-09-19",
+  "touchpoint": "Billing",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-16",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-30",
+  "touchpoint": "Delivery",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-04",
+  "touchpoint": "Billing",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-16",
+  "touchpoint": "Delivery",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-19",
+  "touchpoint": "App",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-22",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-10",
+  "touchpoint": "App",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-10-14",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-11",
+  "touchpoint": "Delivery",
+  "score": 5,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-10-03",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-09-20",
+  "touchpoint": "Billing",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-26",
+  "touchpoint": "Delivery",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-01",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-02",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-21",
+  "touchpoint": "Billing",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-21",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-27",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-06",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-21",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-10",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-25",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-10-11",
+  "touchpoint": "Delivery",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-06",
+  "touchpoint": "Billing",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-25",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-07",
+  "touchpoint": "Billing",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-10-17",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-09-12",
+  "touchpoint": "Support",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-12",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-18",
+  "touchpoint": "Billing",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-09-14",
+  "touchpoint": "Billing",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-13",
+  "touchpoint": "Delivery",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-26",
+  "touchpoint": "Billing",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-03",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-13",
+  "touchpoint": "Delivery",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-13",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-06",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-12",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-18",
+  "touchpoint": "App",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-24",
+  "touchpoint": "Billing",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-26",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-05",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-09-18",
+  "touchpoint": "Onboarding",
+  "score": 5,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-24",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-10-15",
+  "touchpoint": "App",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-25",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-28",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-09-19",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-17",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-09-17",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-13",
+  "touchpoint": "Delivery",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-18",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-19",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-26",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-02",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-04",
+  "touchpoint": "Delivery",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-09",
+  "touchpoint": "Onboarding",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-02",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-19",
+  "touchpoint": "Delivery",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-23",
+  "touchpoint": "App",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-27",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-05",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-10",
+  "touchpoint": "App",
+  "score": 6,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-22",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-26",
+  "touchpoint": "App",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-14",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-17",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-10-21",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-08",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-17",
+  "touchpoint": "Billing",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-13",
+  "touchpoint": "Billing",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-10-21",
+  "touchpoint": "Billing",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-10-13",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-10",
+  "touchpoint": "Support",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-14",
+  "touchpoint": "Onboarding",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-23",
+  "touchpoint": "Delivery",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-29",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-29",
+  "touchpoint": "Onboarding",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-10",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-10-09",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-10-09",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-11",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-19",
+  "touchpoint": "Support",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-29",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-20",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-22",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-24",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-09-14",
+  "touchpoint": "Billing",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-16",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-19",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-11",
+  "touchpoint": "Support",
+  "score": 3,
+  "churned": 1,
+  "comment": "Frustriert"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-31",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-09-02",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-01",
+  "touchpoint": "Onboarding",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-10-14",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-08",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-01",
+  "touchpoint": "Delivery",
+  "score": 4,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-01",
+  "touchpoint": "Onboarding",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-22",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-09-27",
+  "touchpoint": "Delivery",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-13",
+  "touchpoint": "Onboarding",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-07",
+  "touchpoint": "Delivery",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-21",
+  "touchpoint": "App",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-16",
+  "touchpoint": "Onboarding",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-04",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-22",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-10-05",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-14",
+  "touchpoint": "Support",
+  "score": 4,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-19",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-01",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-11",
+  "touchpoint": "Billing",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-11",
+  "touchpoint": "Support",
+  "score": 4,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-18",
+  "touchpoint": "Billing",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-10-08",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-03",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-26",
+  "touchpoint": "Delivery",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-20",
+  "touchpoint": "App",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-09-15",
+  "touchpoint": "Billing",
+  "score": 7,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-10-11",
+  "touchpoint": "App",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-10-04",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-12",
+  "touchpoint": "App",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-19",
+  "touchpoint": "Delivery",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-10-04",
+  "touchpoint": "Onboarding",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-19",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-07",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-30",
+  "touchpoint": "Delivery",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-06",
+  "touchpoint": "Delivery",
+  "score": 4,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-12",
+  "touchpoint": "Billing",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-14",
+  "touchpoint": "Billing",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-26",
+  "touchpoint": "Support",
+  "score": 2,
+  "churned": 1,
+  "comment": "Frustriert"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-22",
+  "touchpoint": "Billing",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-21",
+  "touchpoint": "Onboarding",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-08",
+  "touchpoint": "Onboarding",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-12",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-03",
+  "touchpoint": "App",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-22",
+  "touchpoint": "Delivery",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-10-15",
+  "touchpoint": "Delivery",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-09-24",
+  "touchpoint": "App",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-08",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-10",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-15",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-02",
+  "touchpoint": "Billing",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-11",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-09",
+  "touchpoint": "Support",
+  "score": 4,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-13",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-19",
+  "touchpoint": "Delivery",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-16",
+  "touchpoint": "Onboarding",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-01",
+  "touchpoint": "Delivery",
+  "score": 5,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-22",
+  "touchpoint": "Delivery",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-21",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-10-05",
+  "touchpoint": "Support",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-30",
+  "touchpoint": "Delivery",
+  "score": 5,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-08",
+  "touchpoint": "Onboarding",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-09-26",
+  "touchpoint": "Support",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-08",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-09-19",
+  "touchpoint": "App",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-09",
+  "touchpoint": "Billing",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-04",
+  "touchpoint": "Delivery",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-10",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-21",
+  "touchpoint": "Support",
+  "score": 4,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-29",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-22",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-09-15",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-13",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-08",
+  "touchpoint": "Delivery",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-10-15",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-09",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-25",
+  "touchpoint": "App",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-28",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-10",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-18",
+  "touchpoint": "App",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-25",
+  "touchpoint": "Billing",
+  "score": 8,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-10-17",
+  "touchpoint": "App",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-16",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-23",
+  "touchpoint": "Onboarding",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-09-11",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-13",
+  "touchpoint": "Delivery",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-12",
+  "touchpoint": "Delivery",
+  "score": 4,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-06",
+  "touchpoint": "Delivery",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-21",
+  "touchpoint": "Delivery",
+  "score": 4,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-16",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-26",
+  "touchpoint": "App",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-03",
+  "touchpoint": "Support",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-31",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-23",
+  "touchpoint": "Billing",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-21",
+  "touchpoint": "Billing",
+  "score": 4,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-17",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-09-14",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-30",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-10",
+  "touchpoint": "Support",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-10-16",
+  "touchpoint": "App",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-05",
+  "touchpoint": "Billing",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-10-09",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-09",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-29",
+  "touchpoint": "Support",
+  "score": 4,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-08-13",
+  "touchpoint": "Support",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-10-11",
+  "touchpoint": "Delivery",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-20",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-29",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-24",
+  "touchpoint": "Delivery",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-30",
+  "touchpoint": "Delivery",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-01",
+  "touchpoint": "Onboarding",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-10-05",
+  "touchpoint": "Support",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-09-30",
+  "touchpoint": "Delivery",
+  "score": 4,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-08",
+  "touchpoint": "Delivery",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-09",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-25",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-13",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-20",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-05",
+  "touchpoint": "Support",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-10-10",
+  "touchpoint": "App",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-10-05",
+  "touchpoint": "App",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-19",
+  "touchpoint": "Support",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-16",
+  "touchpoint": "Onboarding",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-04",
+  "touchpoint": "Support",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-06",
+  "touchpoint": "Delivery",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-10-20",
+  "touchpoint": "Delivery",
+  "score": 5,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-08-13",
+  "touchpoint": "Onboarding",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-10-22",
+  "touchpoint": "Support",
+  "score": 4,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-09-18",
+  "touchpoint": "Billing",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-28",
+  "touchpoint": "Support",
+  "score": 2,
+  "churned": 1,
+  "comment": "Frustriert"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-30",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-09-15",
+  "touchpoint": "Billing",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-08",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-29",
+  "touchpoint": "App",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-09-18",
+  "touchpoint": "Delivery",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-09-14",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-10-05",
+  "touchpoint": "App",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-10-23",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-28",
+  "touchpoint": "Onboarding",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-10",
+  "touchpoint": "Delivery",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C001",
+  "date": "2026-10-12",
+  "touchpoint": "Billing",
+  "score": 10,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-09-09",
+  "touchpoint": "Billing",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-15",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C004",
+  "date": "2026-08-16",
+  "touchpoint": "Delivery",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C005",
+  "date": "2026-08-08",
+  "touchpoint": "Support",
+  "score": 7,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C003",
+  "date": "2026-08-15",
+  "touchpoint": "Onboarding",
+  "score": 9,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-09",
+  "touchpoint": "Support",
+  "score": 6,
+  "churned": 0,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C006",
+  "date": "2026-09-13",
+  "touchpoint": "App",
+  "score": 8,
+  "churned": 1,
+  "comment": "Kommentar"
+ },
+ {
+  "client_id": "C002",
+  "date": "2026-08-09",
+  "touchpoint": "Billing",
+  "score": 8,
+  "churned": 0,
+  "comment": "Kommentar"
+ }
+]

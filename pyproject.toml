@@ -1,0 +1,7 @@
+[tool.ruff]
+line-length = 140
+src = ["src", "tests"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

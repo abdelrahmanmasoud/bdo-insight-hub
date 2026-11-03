@@ -1,0 +1,7 @@
+{
+ "env": "staging",
+ "output_dir": "output/staging",
+ "fail_on_dq_errors": true,
+ "office_exports": true,
+ "port": 8001
+}

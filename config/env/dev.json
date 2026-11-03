@@ -1,0 +1,7 @@
+{
+ "env": "dev",
+ "output_dir": "output/dev",
+ "fail_on_dq_errors": false,
+ "office_exports": true,
+ "port": 8000
+}

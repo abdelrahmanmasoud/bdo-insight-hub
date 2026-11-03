@@ -1,0 +1,10 @@
+client_id,client_name,industry,mandate,stage,value_eur,owner
+C001,CEWE Stiftung & Co. KGaA,Photo & Retail,KI-Strategie,lead,45000.0,Partner A
+C002,Delticom AG,E-Commerce,KI-Strategie,proposal,45000.0,Partner B
+C002,Delticom AG,E-Commerce,CX-Diagnose,won,120000.0,Partner B
+C003,Masterflex SE,Industrial Manufacturing,KI-Strategie,won,80000.0,Partner C
+C004,hGears AG,Automotive Supplier,KI-Strategie,lost,80000.0,Partner D
+C004,hGears AG,Automotive Supplier,CX-Diagnose,lead,80000.0,Partner D
+C005,Kölner Pensionskasse VVaG,Insurance & Pensions,KI-Strategie,lead,45000.0,Partner E
+C006,Encavis AG,Renewable Energy,KI-Strategie,proposal,220000.0,Partner F
+C006,Encavis AG,Renewable Energy,CX-Diagnose,won,45000.0,Partner F

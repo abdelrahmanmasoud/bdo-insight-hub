@@ -1,0 +1,8 @@
+{
+  "weights": {"value": 0.4, "readiness": 0.3, "risk": 0.3},
+  "use_cases": [
+    {"name": "Supply-chain early-warning system from social signals", "value": 5, "risk": 2, "requires": ["social", "cx"], "name_de": "Lieferketten-Frühwarnsystem aus Social Signals"},
+    {"name": "Predictive churn model", "value": 4, "risk": 2, "requires": ["cx", "crm", "finance"], "name_de": "Predictive-Churn-Modell"},
+    {"name": "GenAI offer assistant", "value": 3, "risk": 4, "requires": ["crm", "finance"], "name_de": "GenAI-Angebotsassistent"}
+  ]
+}

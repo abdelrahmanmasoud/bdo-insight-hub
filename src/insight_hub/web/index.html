@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>BDO Insight Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{--bg:#f5f3ee;--fg:#12202f;--card:#fff;--mu:#5b6672;--ac:#d3123a;--bd:#e2ded5;--ok:#2f855a;--warn:#b7791f;--hi:#fbeff1}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1822;--fg:#f0eee8;--card:#16283a;--mu:#9aa6b2;--bd:#27405a;--hi:#2a2030}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 Inter,Arial,sans-serif}
+header{background:#12202f;color:#fff;padding:14px 28px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+header h1{font-size:20px;margin:0}header h1 b{color:#ff8fa6}.sp{flex:1}
+select{padding:6px 10px;border-radius:6px;border:1px solid var(--bd);background:var(--card);color:var(--fg)}
+.lang{display:inline-flex;border:1px solid #3a526b;border-radius:8px;overflow:hidden}
+.lang button{background:transparent;color:#c9d4df;border:0;padding:6px 12px;font:inherit;font-weight:700;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--ac);color:#fff}
+.lang button:focus-visible,select:focus-visible,a:focus-visible,nav a:focus-visible{outline:2px solid #ff8fa6;outline-offset:2px}
+nav{display:flex;gap:4px;padding:0 20px;background:var(--card);border-bottom:1px solid var(--bd);overflow-x:auto}
+nav a{padding:12px 14px;color:var(--mu);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;font-weight:600}
+nav a.on{color:var(--ac);border-color:var(--ac)}
+main{max-width:1180px;margin:0 auto;padding:24px}h2{margin:0 0 4px}.lead{color:var(--mu);margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px}.card h3{margin:0 0 6px;font-size:16px;color:var(--ac)}
+.kpi b{font-size:30px;display:block}.kpi span{color:var(--mu)}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden}
+th,td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--bd);font-size:14px;vertical-align:top}th{color:var(--mu);font-size:12px;text-transform:uppercase}
+tr.sel td{background:var(--hi)}
+.wrap{overflow-x:auto}
+.bar{height:12px;background:var(--bd);border-radius:6px;overflow:hidden;min-width:90px}.bar i{display:block;height:100%;background:var(--ac)}
+.tag{display:inline-block;padding:1px 9px;border-radius:99px;font-size:12px;background:var(--bd);margin:1px}
+.pos{color:var(--ok)}.neg{color:var(--ac)}.warn{color:var(--warn)}
+.note{background:var(--card);border:1px solid var(--bd);border-left:4px solid var(--ok);border-radius:8px;padding:10px 14px;margin:0 0 14px}
+.note.bad{border-left-color:var(--ac)}
+pre{background:#12202f;color:#d7e3ee;padding:12px;border-radius:8px;overflow:auto;font-size:13px}
+a.btn{display:inline-block;background:var(--ac);color:#fff;padding:6px 12px;border-radius:6px;text-decoration:none;margin:3px 3px 3px 0;font-size:13px}
+.btn.alt{background:transparent;color:var(--ac);border:1px solid var(--ac)}
+section{display:none}section.on{display:block}iframe{width:100%;height:560px;border:1px solid var(--bd);border-radius:10px;background:#fff}
+.drop{display:block;border:2px dashed var(--bd);border-radius:10px;padding:12px;text-align:center;color:var(--mu);margin:8px 0;cursor:pointer}.drop.over{border-color:var(--ac);background:var(--hi)}
+.drop input{display:none}.cols{font-size:12px;color:var(--mu);word-break:break-word}.msg{min-height:20px;font-size:13px;margin-top:6px}
+button.btn{cursor:pointer;font:inherit;font-size:13px}
+</style></head><body>
+<header><h1>BDO <b>Insight Hub</b></h1><span class="sp"></span>
+<div class="lang" role="group" aria-label="Language / Sprache"><button type="button" data-l="en">EN</button><button type="button" data-l="de">DE</button></div>
+<label><span id="clientLbl"></span> <select id="client"></select></label></header>
+<nav id="nav"></nav>
+<main>
+<section id="overview"></section><section id="integration"></section><section id="monitoring"></section><section id="cx"></section>
+<section id="strategy"></section><section id="presentations"></section><section id="marketing"></section>
+</main>
+<script>
+/* ---------- language ---------- */
+let LANG=(()=>{try{const s=localStorage.getItem("lang");if(s==="en"||s==="de")return s}catch(e){}return (navigator.language||"").toLowerCase().startsWith("de")?"de":"en"})();
+const L=(en,de)=>LANG==="de"?de:en;
+const TABS=[["overview",()=>"Homepage"],["integration",()=>L("Data integration","Datenintegration")],["monitoring",()=>L("Social & product monitoring","Social- & Produktmonitoring")],
+["cx",()=>"Customer Experience"],["strategy",()=>L("KI strategy & solutions","KI-Strategie & Lösungen")],["presentations",()=>L("Presentations (4 audiences)","Präsentationen (4 Zielgruppen)")],
+["marketing",()=>L("Sales & marketing","Vertrieb & Marketing")]];
+let O,C,cid;const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const eur=n=>Math.round(n).toLocaleString(LANG==="de"?"de-DE":"en-GB")+" EUR";
+const bar=(v,max)=>`<div class="bar"><i style="width:${Math.min(100,100*v/max)}%"></i></div>`;
+const table=(h,rows,cls)=>`<div class="wrap"><table><tr>${h.map(x=>`<th>${x}</th>`).join("")}</tr>${rows.map(r=>`<tr${r.cls?` class="${r.cls}"`:""}>${(r.cells||r).map(x=>`<td>${x}</td>`).join("")}</tr>`).join("")}</table></div>`;
+async function j(u){const r=await fetch(u);if(!r.ok)throw new Error(u+" "+r.status);return r.json()}
+/* translate data values (topics, touchpoints, industries ...) */
+const m=(kind,key)=>LANG==="de"?((O.maps[kind]||{})[key]??key):key;
+const src=k=>LANG==="de"?O.maps.source[k]:O.maps.source_en[k];
+const dept=k=>LANG==="de"?O.maps.dept[k]:O.maps.dept_en[k];
+const wave=u=>LANG==="de"?O.maps.wave[u.wave_n]:O.maps.wave_en[u.wave_n];
+const ucName=u=>LANG==="de"?u.name_de:u.name;
+const offName=o=>LANG==="de"?o.offer:(o.offer_en||o.offer);
+const offField=(o,k)=>LANG==="de"?o[k]:(o[k+"_en"]||o[k]);
+const finding=i=>LANG==="de"?(i.message_de||i.message):i.message;
+const sev=s=>`<span class="${s=="error"?"neg":s=="warning"?"warn":""}">${esc(m("severity",s))}</span>`;
+const clientName=id=>{const c=O.clients.find(x=>x.client_id===id);return c?c.name:L("All clients","Alle Kunden")};
+
+async function init(){
+  O=await j("/api/overview");
+  $("client").onchange=load;addEventListener("hashchange",route);
+  document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>setLang(b.dataset.l));
+  chrome();await load();
+}
+function setLang(l){LANG=l;try{localStorage.setItem("lang",l)}catch(e){}chrome();renderAll();route()}
+function chrome(){
+  document.documentElement.lang=LANG;$("clientLbl").textContent=L("Client","Kunde");
+  document.querySelectorAll(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===LANG));
+  const cur=$("client").value;
+  $("client").innerHTML=O.clients.map(c=>`<option value="${c.client_id}">${esc(c.name)}</option>`).join("");if(cur)$("client").value=cur;
+  $("nav").innerHTML=TABS.map(t=>`<a href="#${t[0]}" data-t="${t[0]}">${esc(t[1]())}</a>`).join("");
+}
+async function load(){cid=$("client").value;C=await j("/api/client/"+cid);renderAll();route()}
+function route(){const t=(location.hash||"#overview").slice(1);document.querySelectorAll("section").forEach(s=>s.classList.toggle("on",s.id===t));document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("on",a.dataset.t===t))}
+function renderAll(){overview();integration();monitoring();cx();strategy();presentations();marketing()}
+
+function overview(){const t=O.totals,v=C.client,s=O.dq_summary;
+$("overview").innerHTML=`<h2>${esc(v.name)}</h2><p class="lead">${esc(m("industry",v.industry))} · ${L("one place for data, AI analysis, presentations and sales material.","ein Ort für Daten, KI-Analysen, Präsentationen und Vertriebsmaterial.")}</p>
+<div class="grid"><div class="card kpi"><b>${t.sources}</b><span>${L("departments integrated","Fachbereiche integriert")}</span></div><div class="card kpi"><b>${t.posts}</b><span>${L("social posts analysed","Social-Posts analysiert")}</span></div>
+<div class="card kpi"><b>${t.reviews}</b><span>${L("customer reviews","Kundenbewertungen")}</span></div><div class="card kpi"><b>${C.nps}</b><span>${L("NPS of ","NPS von ")}${esc(v.name)}</span></div>
+<div class="card kpi"><b>${s.total}</b><span>${L("data-quality findings","Datenqualitäts-Befunde")}<br>${s.errors} ${L("errors","Fehler")} · ${s.warnings} ${L("warnings","Warnungen")} · ${s.info} ${L("notes","Hinweise")}</span></div></div>
+<h3>${L("All clients","Alle Kunden")}</h3>`+table([L("Client","Kunde"),L("Industry","Branche"),L("Open pipeline","Offene Pipeline"),"NPS",L("Top use case","Wichtigster Use Case"),L("DQ findings","DQ-Befunde")],
+O.clients.map(c=>({cls:c.client_id===cid?"sel":"",cells:[esc(c.name),esc(m("industry",c.industry)),eur(c.pipeline_eur),c.nps,esc(LANG==="de"?c.top_use_case_de:c.top_use_case),c.dq]})))}
+
+const UPLOAD_ERR=(e,d)=>({
+ missing_columns:L("Missing columns: ","Fehlende Spalten: ")+d,bad_value:L("Invalid value in ","Ungültiger Wert in ")+d,empty:L("The file contains no records.","Die Datei enthält keine Datensätze."),
+ bad_format:L("Unsupported file type ","Nicht unterstützter Dateityp ")+d+L(" (use CSV, TSV, JSON, XLSX or MD)."," (erlaubt: CSV, TSV, JSON, XLSX, MD)."),
+ bad_json:L("JSON must be a list of records.","JSON muss eine Liste von Datensätzen sein."),unreadable:L("The file could not be read.","Die Datei konnte nicht gelesen werden."),
+ too_large:L("The file is larger than 5 MB.","Die Datei ist größer als 5 MB."),rebuild_failed:L("The data could not be combined with the other departments: ","Die Daten ließen sich nicht mit den anderen Fachbereichen verbinden: ")+d
+}[e]||e);
+async function sendFile(key,file){
+  const msg=$("msg-"+key);msg.className="msg";msg.textContent=L("Uploading…","Wird hochgeladen…");
+  try{const r=await fetch(`/api/upload/${key}?filename=${encodeURIComponent(file.name)}`,{method:"POST",body:await file.arrayBuffer()});
+    const res=await r.json();if(!r.ok){msg.className="msg neg";msg.textContent=UPLOAD_ERR(res.error,res.detail);return}
+    await refresh();$("msg-"+key).className="msg pos";$("msg-"+key).textContent=L(`${res.records} records loaded from ${file.name}.`,`${res.records} Datensätze aus ${file.name} geladen.`)}
+  catch(e){msg.className="msg neg";msg.textContent=L("Upload failed: ","Upload fehlgeschlagen: ")+e.message}
+}
+async function resetSource(key){await fetch("/api/reset"+(key?"?source="+key:""),{method:"POST"});await refresh()}
+async function refresh(){O=await j("/api/overview");chrome();await load()}
+function integration(){const s=O.dq_summary,anyUp=O.sources.some(x=>x.origin==="upload");
+$("integration").innerHTML=`<h2>${L("Data integration from different departments","Datenintegration aus unterschiedlichen Fachbereichen")}</h2><p class="lead">${L("Upload one file per department (CSV, TSV, JSON, XLSX; Markdown for compliance). All pages, presentations and the Excel analysis update immediately. Example files are provided for download.","Laden Sie je Fachbereich eine Datei hoch (CSV, TSV, JSON, XLSX; Markdown für Compliance). Alle Seiten, Präsentationen und die Excel-Analyse aktualisieren sich sofort. Beispieldateien stehen zum Download bereit.")}</p>
+<div class="grid">${O.sources.map(x=>`<div class="card"><h3>${esc(dept(x.key))}</h3>
+<div><b>${x.records}</b> ${L("records","Datensätze")} · ${x.origin==="upload"?`<span class="pos">${L("uploaded","hochgeladen")}</span>`:L("default data","Standarddaten")}<br><code>${esc(x.file)}</code></div>
+<div class="cols">${L("Required columns","Pflichtspalten")}: ${x.columns.map(c=>`<code>${esc(c)}</code>`).join(", ")}</div>
+<label class="drop" data-k="${x.key}"><input type="file" data-k="${x.key}" accept=".csv,.tsv,.json,.xlsx,.md">${L("Drop a file here or click to choose","Datei hierher ziehen oder klicken")}</label>
+<div>${x.samples.map(f=>`<a class="btn alt" href="/samples/${encodeURIComponent(f)}" download>${esc(f.split(".").pop().toUpperCase())}</a>`).join("")} <span class="cols">${L("example files","Beispieldateien")}</span></div>
+${x.origin==="upload"?`<button type="button" class="btn alt" data-reset="${x.key}">${L("Use default data","Standarddaten verwenden")}</button>`:""}
+<div class="msg" id="msg-${x.key}" role="status"></div></div>`).join("")}</div>
+${anyUp?`<p><button type="button" class="btn alt" data-reset="">${L("Reset all departments to default data","Alle Fachbereiche auf Standarddaten zurücksetzen")}</button></p>`:""}
+<h3>${L("Unified view for ","Einheitliche Sicht für ")}${esc(C.client.name)} (${L("records per source","Datensätze je Quelle")})</h3>`+table([L("Source","Quelle"),L("Records","Datensätze"),L("Share","Anteil")],Object.entries(C.client.records).map(([k,n])=>[esc(src(k)),n,bar(n,Math.max(1,...Object.values(C.client.records)))]))+
+`<h3>${L("Data-quality gate","Datenqualitäts-Gate")}</h3>
+<div class="note${s.errors?" bad":""}"><b>${s.errors} ${L("errors","Fehler")} · ${s.warnings} ${L("warnings","Warnungen")} · ${s.info} ${L("notes","Hinweise")}</b>: ${s.errors?L("errors are reported only on this local site.","Fehler werden auf dieser lokalen Seite nur gemeldet."):L("gate passed.","Gate bestanden.")}<br>
+<span class="lead">${L("Fix errors in the source files rather than switching the gate off. Warnings and notes never block.","Fehler werden in den Quelldateien behoben, nicht durch Abschalten des Gates. Warnungen und Hinweise blockieren nie.")}</span></div>`+
+(O.dq.length?table([L("Severity","Schwere"),L("Source","Quelle"),L("Client","Kunde"),L("Finding","Befund")],O.dq.map(i=>({cls:i.client_id===cid?"sel":"",cells:[sev(i.severity),esc(src(i.source)),esc(clientName(i.client_id)),esc(finding(i))]}))):`<p>${L("No findings.","Keine Befunde.")}</p>`);
+document.querySelectorAll("#integration input[type=file]").forEach(i=>i.onchange=()=>i.files[0]&&sendFile(i.dataset.k,i.files[0]));
+document.querySelectorAll("#integration .drop").forEach(d=>{d.ondragover=e=>{e.preventDefault();d.classList.add("over")};d.ondragleave=()=>d.classList.remove("over");
+ d.ondrop=e=>{e.preventDefault();d.classList.remove("over");const f=e.dataTransfer.files[0];f&&sendFile(d.dataset.k,f)}});
+document.querySelectorAll("#integration [data-reset]").forEach(b=>b.onclick=()=>resetSource(b.dataset.reset));}
+
+function monitoring(){const s=C.sentiment,tot=s.positive+s.neutral+s.negative||1;
+$("monitoring").innerHTML=`<h2>${L("Social media & product monitoring","Social-Media- & Produktmonitoring")}</h2><p class="lead">${L("Every post is classified by sentiment and topic. Rising negative topics become early warnings.","Jeder Post wird nach Stimmung und Thema klassifiziert. Zunehmende negative Themen werden zu Frühwarnungen.")}</p>
+<div class="grid"><div class="card kpi"><b class="pos">${s.positive}</b><span>${L("positive","positiv")}</span></div><div class="card kpi"><b>${s.neutral}</b><span>${L("neutral","neutral")}</span></div><div class="card kpi"><b class="neg">${s.negative}</b><span>${L("negative of ","negativ von ")}${tot}</span></div></div>
+<h3>${L("Early warnings","Frühwarnungen")}</h3>`+(C.emerging.length?table([L("Topic","Thema"),L("Previous 30 days","Vorherige 30 Tage"),L("Last 30 days","Letzte 30 Tage")],C.emerging.map(e=>[esc(m("topic",e.topic)),e.previous,`<b class="neg">${e.recent}</b>`])):`<p>${L("No emerging issue for this client.","Kein aufkommendes Thema für diesen Kunden.")}</p>`)+
+`<h3>${L("Latest posts","Neueste Posts")}</h3>`+table([L("Date","Datum"),L("Channel","Kanal"),"Post",L("Sentiment","Stimmung"),L("Topics","Themen")],C.recent_posts.map(p=>[p.date,esc(p.channel),esc(p.text),`<span class="${p.sentiment=="positive"?"pos":p.sentiment=="negative"?"neg":""}">${esc(m("sentiment",p.sentiment))}</span>`,p.topics.map(x=>`<span class="tag">${esc(m("topic",x))}</span>`).join("")]))}
+
+function cx(){const d=C.drivers,max=Math.max(1,...d.map(x=>x.lift));
+$("cx").innerHTML=`<h2>${L("Customer experience: where do we lose customers?","Customer Experience: Wo verlieren wir Kunden?")}</h2><p class="lead">NPS ${C.nps}. ${L("Churn lift = touchpoint churn rate divided by overall churn rate.","Churn-Lift = Churn-Rate des Touchpoints geteilt durch die Gesamt-Churn-Rate.")}</p>`+
+table([L("Touchpoint","Touchpoint"),L("Reviews","Bewertungen"),L("Avg score","Ø Score"),L("Churn rate","Churn-Rate"),"Churn-Lift"],d.map(x=>[esc(m("touch",x.touchpoint)),x.n,x.avg_score,Math.round(x.churn_rate*100)+"%",`${bar(x.lift,max)} <b>${x.lift}x</b>`]))}
+
+function strategy(){const s=C.strategy,top=s[0],d=C.drivers[0],e=C.emerging[0];
+const card=(t,why,how,res)=>`<div class="card"><h3>${t}</h3><p><b>${L("Concept.","Konzept.")}</b> ${why}</p><p><b>${L("Technical solution.","Technische Lösung.")}</b> ${how}</p><p><b>${L("Result for ","Ergebnis für ")}${esc(C.client.name)}.</b> ${res}</p></div>`;
+$("strategy").innerHTML=`<h2>${L("Innovative strategies, concepts and technical solutions","Innovative Strategien, Konzepte und technische Lösungen")}</h2><p class="lead">${L("Three concrete examples, running on the data of the selected client.","Drei konkrete Beispiele, berechnet auf den Daten des gewählten Kunden.")}</p>
+<div class="grid">${card(L("1 · AI strategy canvas","1 · KI-Strategie-Canvas"),L("Rank AI use cases by value, <i>measured</i> data readiness and risk, then sequence them in waves.","KI-Use-Cases nach Nutzen, <i>gemessener</i> Datenreife und Risiko bewerten und in Wellen sequenzieren."),
+L("<code>strategy.py</code>: weighted score 0-100; readiness = share of required sources that contain data for this client.","<code>strategy.py</code>: gewichteter Score 0-100; Datenreife = Anteil der benötigten Quellen mit Daten für diesen Kunden."),top?L(`${esc(ucName(top))}: score ${top.score}, ${esc(wave(top))}.`,`${esc(ucName(top))}: Score ${top.score}, ${esc(wave(top))}.`):"–")}
+${card(L("2 · Social & product monitoring","2 · Social- & Produktmonitoring"),L("Detect problems before they escalate.","Probleme erkennen, bevor sie eskalieren."),
+L("<code>monitoring.py</code>: sentiment + topic classifier (pluggable, LLM-ready); rule: negative mentions at least 2x vs. previous 30 days.","<code>monitoring.py</code>: Sentiment- und Themen-Klassifikator (austauschbar, LLM-fähig); Regel: negative Erwähnungen mindestens 2x gegenüber den vorherigen 30 Tagen."),
+e?L(`Early warning on <b>${esc(m("topic",e.topic))}</b>: ${e.previous} → ${e.recent} negative mentions.`,`Frühwarnung zu <b>${esc(m("topic",e.topic))}</b>: ${e.previous} → ${e.recent} negative Erwähnungen.`):L("No emerging issue for this client.","Kein aufkommendes Thema für diesen Kunden."))}
+${card(L("3 · CX insight engine","3 · CX-Insight-Engine"),L("Find the touchpoint that drives churn.","Den Touchpoint finden, der Abwanderung treibt."),
+L("<code>cx.py</code>: NPS and churn lift per touchpoint, joined with CRM and finance data.","<code>cx.py</code>: NPS und Churn-Lift je Touchpoint, verknüpft mit CRM- und Finanzdaten."),
+d?L(`<b>${esc(m("touch",d.touchpoint))}</b> churns ${d.lift}x the average.`,`<b>${esc(m("touch",d.touchpoint))}</b> wandert ${d.lift}x stärker ab als der Durchschnitt.`):"–")}</div>
+<h3>${L("Strategy canvas","Strategie-Canvas")}</h3>`+table([L("Use case","Use Case"),"Score",L("Data readiness","Datenreife"),L("Risk","Risiko"),L("Wave","Welle")],s.map(u=>[esc(ucName(u)),`${bar(u.score,100)} <b>${u.score}</b>`,u.readiness+" / 5",u.risk+" / 5",esc(wave(u))]))+
+`<p>${L("Switch the client in the top bar: use cases, weights and results change without code changes.","Wechseln Sie oben den Kunden: Use Cases, Gewichtungen und Ergebnisse ändern sich ohne Code-Änderung.")}</p>`}
+
+function presentations(){
+const name=a=>LANG==="de"?a.label_de:a.label,goal=a=>LANG==="de"?a.goal_de:a.goal,site=LANG==="de"?"Deutsch":"English";
+$("presentations").innerHTML=`<h2>${L("Audience-specific presentations","Adressatengerechte Präsentationen")}</h2><p class="lead">${L("Same facts, four different presentations for ","Gleiche Fakten, vier verschiedene Präsentationen für ")}${esc(C.client.name)}. ${L("Open in the browser (arrow keys, N = notes, F = fullscreen) or download as PowerPoint with speaker notes. The prospect pitch is always in German.","Im Browser öffnen (Pfeiltasten, N = Notizen, F = Vollbild) oder als PowerPoint mit Sprechernotizen herunterladen. Der Interessenten-Pitch ist immer auf Deutsch.")}</p>
+<div class="grid">${O.audiences.map(a=>`<div class="card"><h3>${esc(name(a))}</h3><p>${esc(goal(a))}</p>
+<a class="btn" target="_blank" href="/deck/${a.key}/${cid}?lang=${LANG}">${L("Open presentation","Präsentation öffnen")}</a><a class="btn alt" href="/download/${a.key}/${cid}.pptx?lang=${LANG}">${L("Download .pptx",".pptx herunterladen")}</a></div>`).join("")}</div>
+<h3>${L("How they differ","So unterscheiden sie sich")}</h3>`+table([L("Audience","Zielgruppe"),L("Language","Sprache"),L("Content focus","Inhaltlicher Fokus"),L("Financials shown","Finanzzahlen"),],[
+["CEO",site,L("3 key facts, priorities, decision","3 Kernfakten, Prioritäten, Entscheidung"),L("Pipeline only","Nur Pipeline")],
+["CFO",site,L("Budget, alerts, ranking by risk","Budget, Hinweise, Ranking nach Risiko"),L("Yes","Ja")],
+[L("IT & Data","IT & Daten"),site,L("Architecture, source coverage, data quality, method","Architektur, Quellenabdeckung, Datenqualität, Methodik"),L("No","Nein")],
+[L("Prospects","Interessenten"),"Deutsch",L("Challenge, findings, approach, offers","Herausforderung, Erkenntnisse, Vorgehen, Angebote"),L("No (never)","Nein (nie)")]])}
+
+function marketing(){
+const act=f=>{const r=m("loss_reason",f.top_loss_reason);return f.action_key==="scale"?L("Scale","Skalieren"):f.action_key==="improve"?L(`Improve (top loss reason: ${f.top_loss_reason})`,`Verbessern (häufigster Verlustgrund: ${r})`):L(`Rework scope/pricing (top loss reason: ${f.top_loss_reason})`,`Umfang/Preis überarbeiten (häufigster Verlustgrund: ${r})`)};
+$("marketing").innerHTML=`<h2>${L("Sales, marketing & continuous improvement","Verkauf, Marketing & kontinuierliche Verbesserung")}</h2><p class="lead">${L("Marketing one-pager (print to PDF), offers, and what the win/loss feedback says about improving them.","Marketing-One-Pager (als PDF drucken), Angebote und was das Win/Loss-Feedback zur Verbesserung sagt.")}</p>
+<a class="btn" href="/download/analysis.xlsx">${L("Download Excel analysis","Excel-Analyse herunterladen")}</a>
+<h3>${L("Recommended offers for ","Empfohlene Angebote für ")}${esc(C.client.name)} (${L("from the signals above","aus den Signalen oben")})</h3>`+table([L("Offer","Angebot"),L("Why now","Warum jetzt"),L("Benefit","Nutzen"),L("Win rate","Win-Rate")],C.offers.map(o=>[esc(offName(o)),esc(LANG==="de"?o.why_de:o.why),esc(offField(o,"benefit")),Math.round((o.win_rate||0)*100)+"%"]))+
+`<h3>${L("Improvement loop: feedback to action","Verbesserungsschleife: Feedback zu Maßnahme")}</h3>`+table([L("Offer","Angebot"),L("Pitches","Pitches"),L("Win rate","Win-Rate"),L("Action","Maßnahme")],O.feedback.map(f=>[esc(LANG==="de"?f.offer:f.offer_en),f.n,`${bar(f.win_rate,1)} ${Math.round(f.win_rate*100)}%`,esc(act(f))]))+
+`<h3>${L("Preview","Vorschau")}</h3><iframe src="/onepager?lang=${LANG}" title="${L("Marketing one-pager","Marketing-One-Pager")}"></iframe>`}
+
+init();
+</script></body></html>

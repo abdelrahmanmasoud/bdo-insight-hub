@@ -1,0 +1,32 @@
+[
+ {
+  "client_id": "C001",
+  "topic": "CSRD reporting",
+  "status": "open"
+ },
+ {
+  "client_id": "C002",
+  "topic": "EU AI Act inventory",
+  "status": "open"
+ },
+ {
+  "client_id": "C003",
+  "topic": "CSRD reporting",
+  "status": "done"
+ },
+ {
+  "client_id": "C004",
+  "topic": "EU AI Act inventory",
+  "status": "done"
+ },
+ {
+  "client_id": "C005",
+  "topic": "DORA ICT risk",
+  "status": "open"
+ },
+ {
+  "client_id": "C006",
+  "topic": "CSRD reporting",
+  "status": "open"
+ }
+]
