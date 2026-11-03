@@ -1,8 +1,6 @@
 # BDO Insight Hub
 
 From fragmented departmental data to a client-ready **KI- & Customer-Experience-Strategie** – and the sales/marketing material to sell it.
-Interview project for the Management Advisory team.
-
 ```
 raw data (5 Fachbereiche) → ingest → data-quality gate → unified client view
    → AI analytics (monitoring · CX · strategy canvas) → 4 audience versions · pitch deck · one-pager · backlog
@@ -14,7 +12,7 @@ pip install -r requirements.txt
 $env:PYTHONPATH = "src"                       # once per PowerShell window
 python -m insight_hub serve                   # → http://localhost:8000
 ```
-The local site always runs the **dev** environment. Staging and production exist only in the GitHub pipeline (see below). Use the **EN / DE switch** and the client selector at the top, then the tabs: Homepage, data integration, monitoring, CX, strategy examples, **4 audience presentations**, sales & marketing. The site, the one-pager and the CEO/CFO/IT decks follow the chosen language; the prospect pitch is always German.
+ Use the **EN / DE switch** and the client selector at the top, then the tabs: Homepage, data integration, monitoring, CX, strategy examples, **4 audience presentations**, sales & marketing. The site, the one-pager and the CEO/CFO/IT decks follow the chosen language; the prospect pitch is always German.
 
 ### Data integration: upload your own files
 The **Data integration** tab has one upload field per department (Sales, Finance, Marketing, Customer Experience, Compliance). Accepted: **CSV, TSV, JSON, XLSX** (and Markdown for compliance). Every page, presentation and the Excel analysis recompute immediately; invalid files are rejected with a message and nothing changes. Uploads are stored in `data/uploads/` (git-ignored); "Use default data" removes them.
